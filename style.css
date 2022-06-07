@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 44, 51);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1 {
+    color: orange;
+}
+
+p {
+    color: white;
+    font-weight: 300;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.win {
+    font-size: 3em;
+    font-weight: 900;
+    display: none;
+    margin: 0 0;
+}
+
+button {
+    margin-top: 15px;
+    padding: 7px 15px;
+}
+
+#game {
+    background-color: rgb(44, 44, 51);
+}
+
+#game td {
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    background-color : white;
+}
+
